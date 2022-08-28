@@ -1318,8 +1318,8 @@ function App () {
                 <div className='flex items-center space-x-1'>
                   <span>shared publication</span>
                   <span>
-                    <svg width='20'height='20' viewBox="0 0 24 24">
-                      <path fill="currentColor" d="M13 9.8V10.7L11.3 10.9C8.7 11.3 6.8 12.3 5.4 13.6C7.1 13.1 8.9 12.8 11 12.8H13V14.1L15.2 12L13 9.8M11 5L18 12L11 19V14.9C6 14.9 2.5 16.5 0 20C1 15 4 10 11 9M17 8V5L24 12L17 19V16L21 12" />
+                    <svg width='20' height='20' viewBox='0 0 24 24'>
+                      <path fill='currentColor' d='M13 9.8V10.7L11.3 10.9C8.7 11.3 6.8 12.3 5.4 13.6C7.1 13.1 8.9 12.8 11 12.8H13V14.1L15.2 12L13 9.8M11 5L18 12L11 19V14.9C6 14.9 2.5 16.5 0 20C1 15 4 10 11 9M17 8V5L24 12L17 19V16L21 12' />
                     </svg>
                   </span>
                 </div>
@@ -1348,8 +1348,8 @@ function App () {
                 <img src='https://images.pexels.com/photos/78793/automotive-defect-broken-car-wreck-78793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='max-w-full object-cover' alt='Imagen' />
               </a>
               <p className='flex items-start p-4 space-x-2 text-slate-400 dark:text-slate-500'>
-                <svg width='16' height='16' viewBox="0 0 24 24" className='flex-none'>
-                  <path fill="currentColor" d="M12,17C10.89,17 10,16.1 10,15C10,13.89 10.89,13 12,13A2,2 0 0,1 14,15A2,2 0 0,1 12,17M18,20V10H6V20H18M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V10C4,8.89 4.89,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z" />
+                <svg width='16' height='16' viewBox='0 0 24 24' className='flex-none'>
+                  <path fill='currentColor' d='M12,17C10.89,17 10,16.1 10,15C10,13.89 10.89,13 12,13A2,2 0 0,1 14,15A2,2 0 0,1 12,17M18,20V10H6V20H18M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V10C4,8.89 4.89,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z' />
                 </svg>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit</span>
               </p>
@@ -1700,8 +1700,8 @@ function App () {
             <a className='inline-block mr-4' href='#'>
               <img className='rounded-full max-w-none w-16 h-16' src='https://randomuser.me/api/portraits/women/44.jpg' alt='Avatar' />
             </a>
-            <svg width='26' height='26' viewBox="0 0 24 24">
-              <path fill="currentColor" d="M21,9L17,5V8H10V10H17V13M7,11L3,15L7,19V16H14V14H7V11Z" />
+            <svg width='26' height='26' viewBox='0 0 24 24'>
+              <path fill='currentColor' d='M21,9L17,5V8H10V10H17V13M7,11L3,15L7,19V16H14V14H7V11Z' />
             </svg>
             <a className='inline-block mr-4' href='#'>
               <img className='rounded-full max-w-none w-16 h-16' src='https://randomuser.me/api/portraits/men/47.jpg' alt='Avatar' />
