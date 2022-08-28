@@ -93,7 +93,7 @@ function App () {
           <div className='flex pb-6 items-start justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/35.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/35.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div>
@@ -115,18 +115,21 @@ function App () {
                 <img
                   className='max-w-full rounded-tl-lg'
                   src='https://images.pexels.com/photos/92866/pexels-photo-92866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
               <a className='flex' href='#'>
                 <img
                   className='max-w-full'
                   src='https://images.pexels.com/photos/247929/pexels-photo-247929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
               <a className='flex' href='#'>
                 <img
                   className='max-w-full rounded-tr-lg'
                   src='https://images.pexels.com/photos/631522/pexels-photo-631522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
             </div>
@@ -135,12 +138,14 @@ function App () {
                 <img
                   className='max-w-full rounded-bl-lg'
                   src='https://images.pexels.com/photos/1429748/pexels-photo-1429748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
               <a className='flex' href='#'>
                 <img
                   className='max-w-full rounded-br-lg'
                   src='https://images.pexels.com/photos/69020/pexels-photo-69020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
             </div>
@@ -160,7 +165,7 @@ function App () {
           </div>
           <div className='relative'>
             <input
-              className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+              className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
               type='text' placeholder='Write a comment'
             />
             <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -178,7 +183,7 @@ function App () {
           <div className='pt-6'>
             <div className='flex pb-4 group'>
               <a className='mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/82.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/women/82.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -210,7 +215,7 @@ function App () {
             </div>
             <div className='flex pb-4 group'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/16.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/men/16.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -256,7 +261,7 @@ function App () {
           <div className='flex pb-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-14 h-14' src='https://randomuser.me/api/portraits/women/9.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/9.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -279,6 +284,7 @@ function App () {
               <img
                 className='max-w-full rounded-lg'
                 src='https://images.pexels.com/photos/3682153/pexels-photo-3682153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                alt='Imagen'
               />
             </a>
           </div>
@@ -297,7 +303,7 @@ function App () {
           </div>
           <div className='relative'>
             <input
-              className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+              className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
               type='text' placeholder='Write a comment'
             />
             <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -315,7 +321,7 @@ function App () {
           <div className='pt-6'>
             <div className='flex pb-4 group'>
               <a className='mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/84.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/men/84.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -347,7 +353,7 @@ function App () {
             </div>
             <div className='flex pb-4 group'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/74.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/women/74.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -393,7 +399,7 @@ function App () {
           <div className='flex pb-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-14 h-14' src='https://randomuser.me/api/portraits/men/33.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/33.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -409,12 +415,14 @@ function App () {
                 <img
                   className='max-w-full rounded-l-lg'
                   src='https://images.pexels.com/photos/2128028/pexels-photo-2128028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
               <a className='flex' href='#'>
                 <img
                   className='max-w-full rounded-r-lg'
                   src='https://images.pexels.com/photos/6145852/pexels-photo-6145852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
             </div>
@@ -437,7 +445,7 @@ function App () {
           </div>
           <div className='relative'>
             <input
-              className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+              className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
               type='text' placeholder='Write a comment'
             />
             <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -459,7 +467,7 @@ function App () {
           <div className='flex pb-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-14 h-14' src='https://randomuser.me/api/portraits/men/9.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/9.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -488,7 +496,7 @@ function App () {
           </div>
           <div className='relative'>
             <input
-              className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+              className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
               type='text' placeholder='Write a comment'
             />
             <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -506,7 +514,7 @@ function App () {
           <div className='pt-6'>
             <div className='flex pb-4 group'>
               <a className='mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/54.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/men/54.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -538,7 +546,7 @@ function App () {
             </div>
             <div className='flex pb-4 group'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/54.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/women/54.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -584,7 +592,7 @@ function App () {
           <div className='flex pb-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-14 h-14' src='https://randomuser.me/api/portraits/women/43.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/43.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -601,12 +609,14 @@ function App () {
                 <img
                   className='w-full h-full rounded-tl-lg object-cover'
                   src='https://images.pexels.com/photos/327331/pexels-photo-327331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
               <a className='flex h-2/4' href='#'>
                 <img
                   className='w-full rounded-bl-lg object-cover'
                   src='https://images.pexels.com/photos/92866/pexels-photo-92866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
             </div>
@@ -615,6 +625,7 @@ function App () {
                 <img
                   className='w-full rounded-tr-lg rounded-br-lg object-cover'
                   src='https://images.pexels.com/photos/247931/pexels-photo-247931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                  alt='Imagen'
                 />
               </a>
             </div>
@@ -637,7 +648,7 @@ function App () {
           </div>
           <div className='relative'>
             <input
-              className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+              className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
               type='text' placeholder='Write a comment'
             />
             <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -655,7 +666,7 @@ function App () {
           <div className='pt-6'>
             <div className='flex pb-4 group'>
               <a className='mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/23.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/women/23.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -687,7 +698,7 @@ function App () {
             </div>
             <div className='flex pb-4 group'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/59.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/women/59.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -718,10 +729,7 @@ function App () {
                 <div className='mt-4'>
                   <div className='flex pb-4'>
                     <a className='mr-4' href='#'>
-                      <img
-                        className='rounded-full max-w-none w-10 h-10'
-                        src='https://randomuser.me/api/portraits/men/23.jpg'
-                      />
+                      <img className='rounded-full max-w-none w-10 h-10' src='https://randomuser.me/api/portraits/men/23.jpg' alt='Avatar' />
                     </a>
                     <div className='flex-1 relative pr-10'>
                       <button className='absolute right-0 top-0 flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -770,7 +778,7 @@ function App () {
           <div className='flex pb-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-14 h-14' src='https://randomuser.me/api/portraits/men/32.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/32.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -798,7 +806,7 @@ function App () {
           </div>
           <div className='relative'>
             <input
-              className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+              className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
               type='text' placeholder='Write a comment'
             />
             <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -820,7 +828,7 @@ function App () {
           <div className='flex p-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-14 h-14' src='https://randomuser.me/api/portraits/women/47.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/47.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -862,7 +870,7 @@ function App () {
             </div>
             <div className='relative'>
               <input
-                className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+                className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
                 type='text' placeholder='Write a comment'
               />
               <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -886,7 +894,7 @@ function App () {
           <div className='flex p-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-14 h-14' src='https://randomuser.me/api/portraits/women/33.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/33.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -922,7 +930,7 @@ function App () {
           <div className='px-6'>
             <div className='relative'>
               <input
-                className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+                className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
                 type='text' placeholder='Write a comment'
               />
               <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -941,7 +949,7 @@ function App () {
           <div className='p-6'>
             <div className='flex pb-4 group'>
               <a className='mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/83.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/women/83.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -973,7 +981,7 @@ function App () {
             </div>
             <div className='flex pb-4 group'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/74.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/women/74.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -1005,7 +1013,7 @@ function App () {
             </div>
             <div className='flex pb-4 group'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/7.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/men/7.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -1023,6 +1031,7 @@ function App () {
                     <img
                       className='max-w-full rounded-lg'
                       src='https://images.pexels.com/photos/61381/pexels-photo-61381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                      alt='Imagen'
                     />
                   </a>
                 </div>
@@ -1059,7 +1068,7 @@ function App () {
           <div className='flex p-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/67.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/67.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -1113,7 +1122,7 @@ function App () {
             </div>
             <div className='relative'>
               <input
-                className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+                className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
                 type='text' placeholder='Write a comment'
               />
               <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -1137,7 +1146,7 @@ function App () {
           <div className='flex pb-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-14 h-14' src='https://randomuser.me/api/portraits/men/39.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/39.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -1206,7 +1215,7 @@ function App () {
           </div>
           <div className='relative'>
             <input
-              className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+              className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
               type='text' placeholder='Write a comment'
             />
             <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -1224,7 +1233,7 @@ function App () {
           <div className='pt-6'>
             <div className='flex pb-4 group'>
               <a className='mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/83.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/men/83.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -1256,7 +1265,7 @@ function App () {
             </div>
             <div className='flex pb-4 group'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/74.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/women/74.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -1298,11 +1307,106 @@ function App () {
         </article>
 
         {/** Card */}
+        <article className='mb-4 pb-6 break-inside rounded-xl flex flex-col bg-clip-border text-sm bg-white dark:bg-slate-800 dark:text-white'>
+          <div className='flex p-6 items-center justify-between border-b border-b-slate-200 dark:border-b-slate-700'>
+            <div className='flex items-center'>
+              <a className='inline-block mr-4' href='#'>
+                <img className='rounded-full max-w-none w-10 h-10' src='https://randomuser.me/api/portraits/men/67.jpg' alt='Avatar' />
+              </a>
+              <div className='flex items-center text-base'>
+                <a className='inline-block font-bold mr-2' href='#'>Frank Smichel</a>
+                <div className='flex items-center space-x-1'>
+                  <span>shared publication</span>
+                  <span>
+                    <svg width='20'height='20' viewBox="0 0 24 24">
+                      <path fill="currentColor" d="M13 9.8V10.7L11.3 10.9C8.7 11.3 6.8 12.3 5.4 13.6C7.1 13.1 8.9 12.8 11 12.8H13V14.1L15.2 12L13 9.8M11 5L18 12L11 19V14.9C6 14.9 2.5 16.5 0 20C1 15 4 10 11 9M17 8V5L24 12L17 19V16L21 12" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 space-y-6'>
+            <div className='rounded-xl border border-slate-200 dark:border-slate-700'>
+              <div className='flex p-6 items-center justify-between'>
+                <div className='flex'>
+                  <a className='inline-block mr-4' href='#'>
+                    <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/68.jpg' alt='Avatar' />
+                  </a>
+                  <div className='flex flex-col'>
+                    <div className='flex items-center'>
+                      <a className='inline-block text-lg font-bold mr-2' href='#'>Paula Lopez</a>
+                    </div>
+                    <div className='text-sm text-slate-500 dark:text-slate-300'>
+                      Marketing Coordinator
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p className='text-sm pr-6 pl-6 pb-6'> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit sed do eiusmodelit sed do eiusmodelit </p>
+              <a href='/'>
+                <img src='https://images.pexels.com/photos/78793/automotive-defect-broken-car-wreck-78793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='max-w-full object-cover' alt='Imagen' />
+              </a>
+              <p className='flex items-start p-4 space-x-2 text-slate-400 dark:text-slate-500'>
+                <svg width='16' height='16' viewBox="0 0 24 24" className='flex-none'>
+                  <path fill="currentColor" d="M12,17C10.89,17 10,16.1 10,15C10,13.89 10.89,13 12,13A2,2 0 0,1 14,15A2,2 0 0,1 12,17M18,20V10H6V20H18M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V10C4,8.89 4.89,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z" />
+                </svg>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit</span>
+              </p>
+            </div>
+          </div>
+          <div className='px-6'>
+            <div className='flex justify-between items-center'>
+              <a className='inline-flex items-center' href='#'>
+                <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                  <img className='w-5' src='https://cdn.iconscout.com/icon/free/png-256/like-2387659-1991059.png' />
+                </span>
+                <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                  <img className='w-5' src='https://cdn.iconscout.com/icon/free/png-256/wow-2387663-1991062.png' />
+                </span>
+                <span className='text-base font-bold ml-3'>171</span>
+              </a>
+              <a className='ml-auto' href='#'>44 comentarios</a>
+            </div>
+            <div className='mt-6 mb-6 h-px bg-slate-200 dark:bg-slate-700' />
+            <div className='flex items-center justify-between mb-6'>
+              <button className='py-1 px-4 font-medium hover:bg-slate-50 dark:hover:bg-slate-700 rounded-md'>
+                Me gusta
+              </button>
+              <button className='py-1 px-4 font-medium hover:bg-slate-50 dark:hover:bg-slate-700 rounded-md'>
+                Comentar
+              </button>
+              <button className='py-1 px-4 font-medium hover:bg-slate-50 dark:hover:bg-slate-700 rounded-md'>
+                Compartir
+              </button>
+            </div>
+            <div className='relative'>
+              <input
+                className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
+                type='text' placeholder='Write a comment'
+              />
+              <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
+                <svg className='mr-2' width='22' height='22' viewBox='0 0 24 24'>
+                  <path
+                    fill='currentColor'
+                    d='M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5M17,9.5C17,10.3 16.3,11 15.5,11C14.7,11 14,10.3 14,9.5C14,8.7 14.7,8 15.5,8C16.3,8 17,8.7 17,9.5M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23Z'
+                  />
+                </svg>
+                <svg className='fill-blue-500 dark:fill-slate-50' width='22' height='22' viewBox='0 0 24 24'>
+                  <path d='M2,21L23,12L2,3V10L17,12L2,14V21Z' />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </article>
+        {/** End Card */}
+
+        {/** Card */}
         <article className='mb-4 break-inside p-6 rounded-xl flex flex-col text-sm bg-white dark:bg-slate-800 dark:text-white'>
           <div className='flex pb-6 items-start justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/32.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/32.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div>
@@ -1396,7 +1500,7 @@ function App () {
           </div>
           <div className='relative'>
             <input
-              className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+              className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
               type='text' placeholder='Write a comment'
             />
             <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -1414,7 +1518,7 @@ function App () {
           <div className='pt-6'>
             <div className='flex pb-4 group'>
               <a className='mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/82.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/men/82.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -1446,7 +1550,7 @@ function App () {
             </div>
             <div className='flex pb-4 group'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/76.jpg' />
+                <img className='rounded-full max-w-none w-11 h-11' src='https://randomuser.me/api/portraits/women/76.jpg' alt='Avatar' />
               </a>
               <div className='flex-1 relative pr-10'>
                 <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -1492,7 +1596,7 @@ function App () {
           <div className='flex px-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/13.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/13.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
@@ -1571,7 +1675,7 @@ function App () {
             </div>
             <div className='relative'>
               <input
-                className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+                className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
                 type='text' placeholder='Write a comment'
               />
               <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -1586,6 +1690,22 @@ function App () {
                 </svg>
               </span>
             </div>
+          </div>
+        </article>
+        {/** End Card */}
+
+        {/** Card */}
+        <article className='mb-4 break-inside rounded-xl flex flex-col bg-clip-border text-sm bg-white dark:bg-slate-800 dark:text-white'>
+          <div className='p-6 flex items-center justify-between'>
+            <a className='inline-block mr-4' href='#'>
+              <img className='rounded-full max-w-none w-16 h-16' src='https://randomuser.me/api/portraits/women/44.jpg' alt='Avatar' />
+            </a>
+            <svg width='26' height='26' viewBox="0 0 24 24">
+              <path fill="currentColor" d="M21,9L17,5V8H10V10H17V13M7,11L3,15L7,19V16H14V14H7V11Z" />
+            </svg>
+            <a className='inline-block mr-4' href='#'>
+              <img className='rounded-full max-w-none w-16 h-16' src='https://randomuser.me/api/portraits/men/47.jpg' alt='Avatar' />
+            </a>
           </div>
         </article>
         {/** End Card */}
@@ -1606,7 +1726,7 @@ function App () {
             <p>Lorem ipsum dolor sit amt amet de consectetet, consectetur 😋 🤪 😬 adipiscing elit, sed do eiusmod.</p>
             <div className='relative'>
               <input
-                className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+                className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
                 type='text' placeholder='Write a comment'
               />
               <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
@@ -1624,7 +1744,7 @@ function App () {
             <div className='pt-6'>
               <div className='flex pb-4 group'>
                 <a className='mr-4' href='#'>
-                  <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/10.jpg' />
+                  <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/men/10.jpg' alt='Avatar' />
                 </a>
                 <div className='flex-1 relative pr-10'>
                   <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -1656,7 +1776,7 @@ function App () {
               </div>
               <div className='flex pb-4 group'>
                 <a className='inline-block mr-4' href='#'>
-                  <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/75.jpg' />
+                  <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/75.jpg' alt='Avatar' />
                 </a>
                 <div className='flex-1 relative pr-10'>
                   <button className='hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -1703,12 +1823,16 @@ function App () {
           <div className='flex px-6 items-center justify-between'>
             <div className='flex'>
               <a className='inline-block mr-4' href='#'>
-                <img className='rounded-full max-w-none w-14 h-14' src='https://randomuser.me/api/portraits/women/12.jpg' />
+                <img className='rounded-full max-w-none w-12 h-12' src='https://randomuser.me/api/portraits/women/12.jpg' alt='Avatar' />
               </a>
               <div className='flex flex-col'>
                 <div className='flex items-center'>
                   <a className='inline-block text-lg font-bold mr-2' href='#'>Alicia Gasperinni</a>
-                  <span className='text-slate-500 dark:text-slate-300'>Master</span>
+                  <span className=''>
+                    <svg width='20' height='20' viewBox='0 0 24 24'>
+                      <path fill='currentColor' d='M16 8C16 10.21 14.21 12 12 12C9.79 12 8 10.21 8 8L8.11 7.06L5 5.5L12 2L19 5.5V10.5H18V6L15.89 7.06L16 8M12 14C16.42 14 20 15.79 20 18V20H4V18C4 15.79 7.58 14 12 14Z' />
+                    </svg>
+                  </span>
                 </div>
                 <div className='text-slate-500 dark:text-slate-300'>
                   Medical Assistant
@@ -1732,20 +1856,75 @@ function App () {
               </div>
             </div>
           </div>
-          <div className='px-6'>
-            <div className='relative'>
+          <div className='flex justify-between items-center px-6'>
+            <a className='inline-flex items-center' href='#'>
+              <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 16 16' fill='none'>
+                  <path fill='url(#a)' d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z' />
+                  <path fill='#fff' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z' />
+                  <defs>
+                    <linearGradient id='a' x1='8' x2='8' y2='16' gradientUnits='userSpaceOnUse'>
+                      <stop stopColor='#18AFFF' />
+                      <stop offset='1' stopColor='#0062DF' />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
+              <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 16 16' fill='none'>
+                  <path fill='url(#b)' d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z' />
+                  <path fill='#fff' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z' />
+                  <defs>
+                    <linearGradient id='b' x1='8' x2='8' y2='16' gradientUnits='userSpaceOnUse'>
+                      <stop stopColor='#FF6680' />
+                      <stop offset='1' stopColor='#E61739' />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
+              <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 16 16' fill='none'>
+                  <path fill='url(#aa)' d='M16 8A8 8 0 1 1-.001 8 8 8 0 0 1 16 8' />
+                  <path fill='url(#bb)' d='M3 8.008C3 10.023 4.006 14 8 14c3.993 0 5-3.977 5-5.992C13 7.849 11.39 7 8 7c-3.39 0-5 .849-5 1.008Z' />
+                  <path fill='url(#cc)' d='M4.541 12.5c.804.995 1.907 1.5 3.469 1.5 1.563 0 2.655-.505 3.459-1.5-.551-.588-1.599-1.5-3.459-1.5s-2.917.912-3.469 1.5Z' />
+                  <path fill='#2A3755' d='M6.213 4.144c.263.188.502.455.41.788-.071.254-.194.369-.422.37-.78.012-1.708.256-2.506.613-.065.029-.197.088-.332.085-.124-.003-.251-.058-.327-.237-.067-.157-.073-.388.276-.598.545-.33 1.257-.48 1.909-.604-.41-.303-.85-.56-1.315-.768-.427-.194-.38-.457-.323-.6.127-.317.609-.196 1.078.026a9 9 0 0 1 1.552.925Zm3.577 0a8.955 8.955 0 0 1 1.55-.925c.47-.222.95-.343 1.078-.026.057.143.104.406-.323.6a7.028 7.028 0 0 0-1.313.768c.65.123 1.363.274 1.907.604.349.21.342.44.276.598-.077.18-.203.234-.327.237-.135.003-.267-.056-.332-.085-.797-.357-1.725-.6-2.504-.612-.228-.002-.351-.117-.422-.37-.091-.333.147-.6.41-.788v-.001Z' />
+                  <defs>
+                    <linearGradient id='aa' x1='8' x2='8' y1='1.64' y2='16' gradientUnits='userSpaceOnUse'>
+                      <stop stopColor='#FEEA70' />
+                      <stop offset='1' stopColor='#F69B30' />
+                    </linearGradient>
+                    <linearGradient id='bb' x1='8' x2='8' y1='7' y2='14' gradientUnits='userSpaceOnUse'>
+                      <stop stopColor='#472315' />
+                      <stop offset='1' stopColor='#8B3A0E' />
+                    </linearGradient>
+                    <linearGradient id='cc' x1='8.005' x2='8.005' y1='11' y2='13.457' gradientUnits='userSpaceOnUse'>
+                      <stop stopColor='#FC607C' />
+                      <stop offset='1' stopColor='#D91F3A' />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
+              <span className='font-bold ml-3'>33</span>
+            </a>
+            <a className='ml-auto' href='#'>5 comments</a>
+          </div>
+          <div className='px-6 flex items-start justify-start'>
+            <a className='inline-block mr-4' href='#'>
+              <img className='rounded-full max-w-none w-10 h-10' src='https://randomuser.me/api/portraits/men/12.jpg' alt='avatar' />
+            </a>
+            <div className='flex-1 relative'>
               <input
-                className='pt-2 pb-2 pl-3 w-full h-11 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium pr-20'
+                className='pt-2 pb-2 pl-3 w-full pr-20 h-10 bg-slate-100 dark:bg-slate-600 rounded-lg placeholder:text-slate-600 dark:placeholder:text-slate-300 font-medium'
                 type='text' placeholder='Write a comment'
               />
               <span className='flex absolute right-3 top-2/4 -mt-3 items-center'>
-                <svg className='mr-2' width='22' height='22' viewBox='0 0 24 24'>
+                <svg className='mr-2' width='20' height='20' viewBox='0 0 24 24'>
                   <path
                     fill='currentColor'
                     d='M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5M17,9.5C17,10.3 16.3,11 15.5,11C14.7,11 14,10.3 14,9.5C14,8.7 14.7,8 15.5,8C16.3,8 17,8.7 17,9.5M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23Z'
                   />
                 </svg>
-                <svg className='fill-blue-500 dark:fill-slate-50' width='22' height='22' viewBox='0 0 24 24'>
+                <svg className='fill-blue-500 dark:fill-slate-50' width='20' height='20' viewBox='0 0 24 24'>
                   <path d='M2,21L23,12L2,3V10L17,12L2,14V21Z' />
                 </svg>
               </span>
